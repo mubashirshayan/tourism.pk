@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book style.css">
+</head>
+<body>
+<h1>Book Your Tour</h1>
+  <p><a href="../index.html"><button>Go to homepage</button></a></p>
+   <fieldset class="form">
+    <legend class="typetour">Tour Information</legend>
+    <label class="option">Select tour type:<br/></label>
+    <select name="tour type">
+      <option value="">select </option>
+      <option value="holidays">Holiday</option>
+      <option value="advanture">Advanture</option>
+      <option value="honeymoon">Honeymoon</option>
+      <option value="Any">Any</option>
+      <option value="religion">Religion</option>
+    </select>
+    <br/>
+
+    
+    <label>destination:<br/></label>
+    <select name="destination">
+      <option value="">select </option>
+      <option value="sindh">sindh</option>
+      <option value="punjab">Punjab</option>
+      <option value="kpk">Kpk</option>
+      <option value="balochistan">Balochistan</option>
+      <option value="murree">Murree</option>
+    </select>
+
+    <br/>
+    <p>Select your Tour facilaties:<br/>
+    <input type="checkbox" name="facilaties" value="geep" />geep<br/>
+    <input type="checkbox" name="facilaties" value="seperate room" />Seperate room<br/>
+    <input type="checkbox" name="facilaties" value="camp" />Camp<br/>
+    <input type="checkbox" name="facilaties" value="hotel" />Hotel<br/>
+    </p>
+    <label>Select Tour guider:</label></br>
+    <input type="radio" name="gender" value="male"/>Male
+    <input type="radio" name="gender" value="female"/>Female
+
+    
+   </fieldset>
+   <fieldset>
+    <legend><b>Personal Information</b></legend>
+    <p>Select Your Gender:<br/>
+      <input type="radio" name="gender" value="male" />male<br/>
+      <input type="radio" name="gender" value="female" />female<br/>
+      <input type="radio" name="gender" value="custom" />custom<br/></p>
+  <p>Username: <input placeholder="enter your name" type="text" name="username"/></p><br>
+  Email: <input placeholder="enter your email" type="email" name="email"/></p><br>
+  Phone number: <input placeholder="phone number" type="number" name="number"/></p><br>
+  Password: <input placeholder="user password" type="password" name="Any"/></p><br>
+    </fieldset>
+    <fieldset>
+  <legend><b>Tour details</b></legend>
+  <label>Duration:</label>
+
+  <select name="day">
+    <option value="">select </option>
+    <option value="day">5day</option>
+    <option value="week">1week</option>
+    <option value="day">15days</option>
+    <option value="month">Month</option>
+    <option value="year">Year</option>
+  </select>
+  <p>
+    Select Date to start a tour:
+    <input type="date" name="date"></br>
+  </br>
+  
+    Month:
+    <input type="month" name="month">
+
+  </p>
+    </fieldset>
+  <fieldset>
+    <legend>About tour</legend>
+    <label>Discribtion box:</label>
+    <textarea placeholder="Write about your tour"></textarea> 
+  </fieldset>
+    <input type="submit" name="submit"/>
+    
+</body>
+</html>
