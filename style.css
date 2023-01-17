@@ -1,38 +1,342 @@
-h1{font-style:normal;
-text-align: center; font-weight:lighter; font-size: 50px;
-text-shadow: -3px 2px 0px rgb(187, 183, 183);
-text-transform: uppercase;
-word-spacing: normal;
+h1 {
+     font-style: normal;
+     text-align: center;
+     font-weight: lighter;
+     font-size: 50px;
+     text-shadow: -3px 2px 0px rgb(187, 183, 183);
+     text-transform: uppercase;
+     word-spacing: normal;
+     
 }
-.pack{ text-align: center;}
-.explore{font-size: 30px; font-family: sans-serif; text-shadow: none;}
-.box{background-color: rgb(195, 224, 241);
-     height: 300px; padding: 20px;}
-.child1{background-color:white;
-height:400px; width:50%;}
-input{display: block;
-     border-radius: 20px;
-     margin: auto;
-     height: 50px;
-     width: 250px;}
-.parent{background-color: blue; height:400px; width: 1300px ; display:flex;}
-.child2{background-color:white; height: 400px; width:50%;}
-.one{font-size:18px; font-family: sans-serif; }
-button{color: blue;}
-#head{font-size: 50px;
-       text-underline-position: below;
-       text-align: center; text-decoration-line: underline;
-    font-style: inherit; font-weight: 100}
-p{font-style: inherit;}
-#top{text-decoration: underline;
-     font-style: inherit;}
-img.align-center{display: block;
-                margin: 0px auto;}
-#head{line-height: 1px;
-      }
-p{font-family: sans-serif;}
-p.intro:first-letter {
-      font-size: 200%;}
-.company{font-family: serif;
-         font-style: oblique;}
+body{padding: auto;}
 
+         /* PakistanContainer */
+
+@media screen and(max-width:950px) {
+     .pakistancontainer_parent{margin: left 50px;}
+     
+}
+.pakistancontainer {
+     background-color: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 3px solid black;
+}
+.pakistancontainer_parent {
+     background-color: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;}
+  
+.pakistan_img {
+     background-color: aquamarine;
+     display: flex;
+     justify-content: center;
+     width: 400px;
+}
+
+.pakistan_para {
+     background-color: none;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     width: 850px;
+}
+
+.pack {
+     text-align: center;
+}
+     /* ExploreButton */
+
+.explore {
+     font-size: 25px;
+     font-family: sans-serif;
+     text-shadow: none;
+     margin-top: 30px;
+}
+
+.box {
+     background-color: rgb(195, 224, 241);
+     min-height: 250px;
+     padding: 20px;
+     min-width: 300px;
+}
+
+input {
+     display: block;
+     border-radius: 50px;
+     margin: auto;
+     min-height: 40px;
+     min-width: 250px;
+     padding: 10px;
+}
+
+.one {
+     font-size: 18px;
+     font-family: sans-serif;
+}
+input::placeholder{margin-left: 10px;}
+
+#head {
+     font-size: 50px;
+     text-underline-position: below;
+     text-align: center;
+     text-decoration-line: underline;
+     font-style: inherit;
+     font-weight: 100
+}
+
+p {
+     font-style: inherit;
+}
+
+#top {
+     text-decoration: underline;
+     font-style: inherit;
+}
+
+img.align-center {
+     display: block;
+     margin: 0px auto;
+}
+
+#head {
+     line-height: 1px;
+}
+
+p {
+     font-family: sans-serif;
+}
+
+p.intro:first-letter {
+     font-size: 200%;
+}
+
+.company {
+     font-family: serif;
+     font-style: oblique;
+}
+
+/* Pakistan Card Stylling */
+.saw {
+     padding-left: 80px;
+    
+    
+    
+}
+
+.container {
+     
+     min-height: 300px;
+     display: flex;
+     margin: 40px;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.see1 {
+     background-color: yellow;
+     background-color: whitesmoke;
+}
+
+.see2 {
+     background-color: brown;
+     height: 120px;
+     background-color: whitesmoke;
+}
+
+.see3 {
+     background-color: blanchedalmond;
+     background-color: whitesmoke;
+}
+
+.see {
+     background-color: whitesmoke;
+     height: 350px;
+     width: 300px;
+     margin: 10px;
+}
+
+.see3 {
+     background-color: whitesmoke;
+     display: flex;
+     width: 300px;
+}
+
+.div1 {
+     background-color: green;
+     width: 15px;
+     border-radius: 100%;
+     margin: 1px;
+}
+
+.div2 {
+     background-color: green;
+     width: 15px;
+     margin: 1px;
+     border-radius: 100%;
+}
+
+.div3 {
+     background-color: green;
+     width: 15px;
+     margin: 1px;
+     border-radius: 100%;
+}
+
+.div4 {
+     background-color: green;
+     width: 15px;
+     margin: 1px;
+     border-radius: 100%;
+}
+
+.div5 {
+     background-color: green;
+     width: 15px;
+     margin: 1px;
+     border-radius: 100%;
+}
+
+.ref {
+     font-family: sans-serif;
+     text-decoration: none;
+     color: black;
+
+}
+     /* NAVBAR STYLING */
+@media screen and (max-width:900px)
+     { .navbar {flex-direction: column;}
+     .container{margin-left: 50px;}} 
+.navbar {
+     min-height: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     position: fixed;
+     top: 0px;
+     background-color: white;
+     border: 2px solid whitesmoke;
+}
+
+li {
+     list-style-type: none;
+     display: inline-block;
+     background-color: none;
+     padding: 10px;
+}
+
+li:hover {
+     background-color: whitesmoke;
+     color: bisque;
+}
+
+ul {
+     display: inline-block;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+a:hover {
+     cursor: pointer;
+     text-decoration: underline;
+     color: blue;
+}
+
+i {
+     color: black;
+}
+
+.logo {
+     height: 100px;
+     width: 200px;
+}
+
+   /* Company ads */
+.parent {
+     display: flex;
+     min-height: 250px;
+     background-color: blueviolet;
+
+}
+
+.child1 {
+     background-color: orange;
+     padding: 10px;
+     min-width: 300px;
+}
+
+.child2 {
+     background-color: orange;
+     display: flex;
+     justify-content: flex-end;
+}
+.ad-img{max-height: 600px;}
+#book_button{background-color: black;
+     color:white;
+     height: 50px;
+     border-radius: 7px;}
+#book_button:hover{background-color: #fff;
+     color: #111;}
+
+
+      /* FooterDocument */
+footer{background-color: #111;
+height: auto;
+width: 100vw;
+font-family: open sans-serif;
+padding-top: 40px;
+color: white;}
+.footer_content{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+.footer_content h3{
+     font-size: 1.8rem;
+     font-weight: 400px;
+     text-transform: capitalize;
+     line-height: 3rem;
+}
+.footer_content p{max-width: 500px;
+     margin: 10px auto;
+     line-height: 28px;
+     font-size: 14px;}
+.socials li{
+     margin: 0 10px;
+}
+a.socials{
+     text-decoration: none;
+     color: #fff;
+}
+.socials a i{
+     font-size: 1.1rem;
+     color: #fff;
+}
+.socials a:hover i{
+     color: aqua;
+}
+.footer_bottom{
+     background-color: black;
+     width: 100vw;
+     padding: 20px 0;
+     text-align: center;
+}
+.footer_bottom p{
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+}
+.footer_bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+}
